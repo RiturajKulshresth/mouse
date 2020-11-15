@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+        <Button
+            android:id="@+id/leftbutton"
+            android:layout_width="0dp"
+            android:layout_height="202dp"
+            android:text="left mouse"
+            android:background="@color/back"
+            android:textColor="@color/pinkaccent"
+            android:layout_weight="1"
+            android:layout_marginRight="2sp"
+            app:backgroundTint="@color/back"/>
+        <Button
+            android:id="@+id/rightbutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/back"
+            android:text="right mouse"
+            android:layout_marginLeft="2sp"
+            android:textColor="@color/pinkaccent"
+            android:layout_weight="1"
+            app:backgroundTint="@color/back"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="240pt"
+        android:id="@+id/yvalue"
+        android:layout_marginTop="4sp"
+        android:background="@color/Darkback"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/touch_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/Darkback"
+        android:textColor="@color/white"
+        android:text="                                           Welcome to the App" />
+
+
+
+
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/cView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="20pt"-->
+<!--        android:layout_marginTop="3sp"/>-->
+
+</LinearLayout>
